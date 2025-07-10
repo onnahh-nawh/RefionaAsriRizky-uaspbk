@@ -1,0 +1,68 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDF8F3;
+    color: #4B3F36;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-coffee-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-coffee-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-coffee-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-sage text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-sage focus:ring-offset-2;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-coffee-500 text-coffee-500 px-6 py-3 rounded-lg font-medium hover:bg-coffee-500 hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-coffee-500 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-coffee-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-coffee-500 focus:border-transparent transition-colors duration-200;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-coffee-500 mb-6 text-center;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-coffee-600 mb-8 text-center max-w-2xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

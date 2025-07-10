@@ -1,0 +1,173 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "category": "coffee",
+      "price": 25000,
+      "description": "Rich and bold espresso shot, perfect for coffee purists",
+      "image": "https://images.pexels.com/photos/302898/pexels-photo-302898.jpeg?_gl=1*cywxv7*_ga*NzQyNjc0MjExLjE3NTIxNDI5MzU.*_ga_8JE65Q40S6*czE3NTIxNDI5MzQkbzEkZzEkdDE3NTIxNDQwMjQkajMzJGwwJGgw",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "category": "coffee",
+      "price": 35000,
+      "description": "Classic Italian coffee with steamed milk and foam",
+      "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Latte",
+      "category": "coffee",
+      "price": 40000,
+      "description": "Smooth espresso with steamed milk and light foam",
+      "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Americano",
+      "category": "coffee",
+      "price": 30000,
+      "description": "Espresso shots with hot water, clean and simple",
+      "image": "https://images.pexels.com/photos/7451787/pexels-photo-7451787.jpeg?_gl=1*6ysj62*_ga*NzQyNjc0MjExLjE3NTIxNDI5MzU.*_ga_8JE65Q40S6*czE3NTIxNDI5MzQkbzEkZzEkdDE3NTIxNDQxMzkkajIkbDAkaDA.",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Mocha",
+      "category": "coffee",
+      "price": 45000,
+      "description": "Espresso with chocolate, steamed milk, and whipped cream",
+      "image": "https://images.pexels.com/photos/32938772/pexels-photo-32938772.jpeg",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Matcha Latte",
+      "category": "non-coffee",
+      "price": 42000,
+      "description": "Premium matcha powder with steamed milk",
+      "image": "https://images.pexels.com/photos/2227126/pexels-photo-2227126.jpeg",
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Hot Chocolate",
+      "category": "non-coffee",
+      "price": 35000,
+      "description": "Rich chocolate drink with marshmallows",
+      "image": "https://images.pexels.com/photos/5419235/pexels-photo-5419235.jpeg",
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Croissant",
+      "category": "snacks",
+      "price": 28000,
+      "description": "Buttery, flaky French pastry",
+      "image": "https://images.pexels.com/photos/3892469/pexels-photo-3892469.jpeg",
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "Blueberry Muffin",
+      "category": "snacks",
+      "price": 32000,
+      "description": "Fresh baked muffin with blueberries",
+      "image": "https://images.pexels.com/photos/90609/pexels-photo-90609.png",
+      "available": true
+    },
+    {
+      "id": 10,
+      "name": "Avocado Toast",
+      "category": "snacks",
+      "price": 48000,
+      "description": "Artisan bread with fresh avocado and seasonings",
+      "image": "https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "available": true
+    },
+    {
+      "name": "breakfast",
+      "category": "snacks",
+      "price": 15000,
+      "description": "egg with ham, bean, bread and cheese",
+      "image": "https://images.pexels.com/photos/32929204/pexels-photo-32929204.jpeg",
+      "available": true,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "John Doe",
+      "tableNumber": "5",
+      "items": [
+        {
+          "id": 1,
+          "name": "Espresso",
+          "price": 25000,
+          "quantity": 2,
+          "notes": "Extra strong"
+        }
+      ],
+      "total": 50000,
+      "paymentMethod": "cash",
+      "status": "processing",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "customerName": "sss",
+      "tableNumber": "ssss",
+      "phone": "06666666666",
+      "specialRequests": "",
+      "items": [
+        {
+          "id": 2,
+          "name": "Cappuccino",
+          "category": "coffee",
+          "price": 35000,
+          "description": "Classic Italian coffee with steamed milk and foam",
+          "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "available": true,
+          "quantity": 4,
+          "notes": ""
+        },
+        {
+          "id": 3,
+          "name": "Latte",
+          "category": "coffee",
+          "price": 40000,
+          "description": "Smooth espresso with steamed milk and light foam",
+          "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "available": true,
+          "quantity": 1,
+          "notes": ""
+        },
+        {
+          "id": 1,
+          "name": "Espresso",
+          "category": "coffee",
+          "price": 25000,
+          "description": "Rich and bold espresso shot, perfect for coffee purists",
+          "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "available": true,
+          "quantity": 1,
+          "notes": ""
+        }
+      ],
+      "total": 225500,
+      "paymentMethod": "qris",
+      "id": 1752141596675,
+      "status": "received",
+      "createdAt": "2025-07-10T09:59:56.675Z"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "admin123"
+  }
+}
