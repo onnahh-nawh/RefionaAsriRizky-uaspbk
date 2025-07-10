@@ -6,7 +6,10 @@
 **Café Bliss** adalah proyek tugas akhir mata kuliah **Pemrograman Berbasis Komponen (PBK)**. Aplikasi ini merupakan website pemesanan kopi secara online yang dikembangkan menggunakan pendekatan berbasis komponen dengan **Vue.js 3** dan **JSON Server** sebagai mock backend.
 
 ---
-
+## untuk akses agar terdapat data!!
+- harus menjalannkan backendnya pada file ini di git bash = 
+npx json-server --watch db.json --port 3001
+- 
 ## 🔐 Akses Admin
 
 Untuk mengakses halaman admin, login diperlukan menggunakan kredensial khusus yang telah ditentukan. Setelah login, admin dapat mengelola menu dan pesanan.
@@ -155,8 +158,8 @@ Responsif diatur menggunakan Tailwind breakpoints seperti `md:`, `lg:`, dan `xl:
 1. **Clone repository:**
 
 ```
-git clone https://github.com/namamu/cafebliss.git
-cd cafebliss
+git clone link gitnya
+cd 
 ```
 
 2. **Install dependencies:**

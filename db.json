@@ -19,15 +19,6 @@
       "available": true
     },
     {
-      "id": 3,
-      "name": "Latte",
-      "category": "coffee",
-      "price": 40000,
-      "description": "Smooth espresso with steamed milk and light foam",
-      "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "available": true
-    },
-    {
       "id": 4,
       "name": "Americano",
       "category": "coffee",
@@ -98,6 +89,15 @@
       "image": "https://images.pexels.com/photos/32929204/pexels-photo-32929204.jpeg",
       "available": true,
       "id": 11
+    },
+    {
+      "name": "egg",
+      "category": "snacks",
+      "price": 100000,
+      "description": "egg",
+      "image": "https://images.pexels.com/photos/31775360/pexels-photo-31775360.jpeg",
+      "available": true,
+      "id": 12
     }
   ],
   "orders": [
@@ -116,7 +116,7 @@
       ],
       "total": 50000,
       "paymentMethod": "cash",
-      "status": "processing",
+      "status": "completed",
       "createdAt": "2024-01-15T10:30:00Z"
     },
     {
@@ -162,8 +162,54 @@
       "total": 225500,
       "paymentMethod": "qris",
       "id": 1752141596675,
-      "status": "received",
+      "status": "processing",
       "createdAt": "2025-07-10T09:59:56.675Z"
+    },
+    {
+      "customerName": "ona",
+      "tableNumber": "5",
+      "phone": "08888888",
+      "specialRequests": "capucino dengan es",
+      "items": [
+        {
+          "id": 8,
+          "name": "Croissant",
+          "category": "snacks",
+          "price": 28000,
+          "description": "Buttery, flaky French pastry",
+          "image": "https://images.pexels.com/photos/3892469/pexels-photo-3892469.jpeg",
+          "available": true,
+          "quantity": 1,
+          "notes": ""
+        },
+        {
+          "id": 2,
+          "name": "Cappuccino",
+          "category": "coffee",
+          "price": 35000,
+          "description": "Classic Italian coffee with steamed milk and foam",
+          "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "available": true,
+          "quantity": 2,
+          "notes": ""
+        },
+        {
+          "name": "breakfast",
+          "category": "snacks",
+          "price": 15000,
+          "description": "egg with ham, bean, bread and cheese",
+          "image": "https://images.pexels.com/photos/32929204/pexels-photo-32929204.jpeg",
+          "available": true,
+          "id": 11,
+          "quantity": 1,
+          "notes": ""
+        }
+      ],
+      "total": 124300,
+      "paymentMethod": "qris",
+      "id": 1752156150875,
+      "status": "ready",
+      "createdAt": "2025-07-10T14:02:30.875Z"
     }
   ],
   "admin": {
