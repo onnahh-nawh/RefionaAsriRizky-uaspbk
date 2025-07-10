@@ -12,6 +12,8 @@
 Untuk mengakses halaman admin, login diperlukan menggunakan kredensial khusus yang telah ditentukan. Setelah login, admin dapat mengelola menu dan pesanan.
 
 untuk mengakses cukup tambah ' /admin ' 
+ex: https://refionaasririzky-uaspbk.netlify.app/admin
+
 dan login menggunakan
 username = admin
 password = admin123 
