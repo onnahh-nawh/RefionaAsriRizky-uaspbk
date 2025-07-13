@@ -123,8 +123,6 @@ src/
 /cart          → Keranjang pengguna
 /orders        → Daftar dan status pesanan
 /admin/login   → Validasi login admin (simulasi)
-/reviews       → Ulasan pelanggan (opsional)
-/users         → Data pengguna (opsional)
 ```
 
 ---
