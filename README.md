@@ -47,7 +47,7 @@ Berikut adalah teknologi utama yang digunakan dalam pengembangan aplikasi ini:
 * 💳 Memilih metode pembayaran: Tunai, Mobile Banking, atau QRIS.
 * 📦 Melacak status pesanan: *Diterima → Diproses → Siap*.
 * 🖼️ Melihat galeri dan foto café.
-* ❓ Mengakses FAQ dan informasi kontak.
+
 
 > 🔎 Login tidak diterapkan untuk pengguna agar proses pemesanan lebih sederhana dan cepat. Pengguna hanya perlu mengisi nama dan nomor meja saat checkout.
 
