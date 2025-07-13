@@ -193,4 +193,4 @@ Proyek **Café Bliss** menunjukkan penerapan nyata dari teknologi **Vue 3**, **P
 
 ---
 
-Jika kamu ingin versi PDF, file .md, atau slide presentasi dari ini, tinggal bilang saja!
+
